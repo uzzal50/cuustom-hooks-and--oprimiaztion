@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import ToggleComponent from './custom-hooks/ToggleComponent'
+import { ComponentA } from './Optimization/ComponentA'
 
 function App() {
+  console.log(first)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      {/* <ToggleComponent /> */}
+      <ComponentA />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
