@@ -1,13 +1,14 @@
 import './App.css'
-import ToggleComponent from './custom-hooks/ToggleComponent'
-import { ComponentA } from './Optimization/ComponentA'
+import ToggleComponent from './custom-hooks/1.useToggle/ToggleComponent'
+import PreviousComponent from './custom-hooks/2.useprevious/PreviousComponent'
+import UseArrayComponent from './custom-hooks/3.usearray/UseArrayComponent'
 
 function App() {
-  console.log(first)
   return (
     <div className='App'>
       {/* <ToggleComponent /> */}
-      <ComponentA />
+      {/* <PreviousComponent /> */}
+      <UseArrayComponent />
     </div>
   )
 }
